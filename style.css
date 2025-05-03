@@ -29,6 +29,7 @@ h1, h2, p {
 
 hr {
   height: 3px;
+  background: brown;
 }
 
 h1, h2 {
