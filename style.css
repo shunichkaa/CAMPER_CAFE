@@ -7,6 +7,7 @@ body {
 h1 {
   font-size: 40px;
 }
+
 h2 {
   font-size: 30px;
 }
@@ -20,12 +21,12 @@ h1, h2, p {
 }
 
 .menu {
-  max-width: 500px;
   width: 80%;
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  max-width: 500px;
 }
 
 hr {
@@ -38,6 +39,12 @@ h1, h2 {
   font-family: Impact, serif;
 }
 
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .flavor, .dessert {
   text-align: left;
   width: 75%;
@@ -46,8 +53,4 @@ h1, h2 {
 .price {
   text-align: right;
   width: 25%;
-}
-
-.item p {
-  display: inline-block;
 }
